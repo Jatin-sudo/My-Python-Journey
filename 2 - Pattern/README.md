@@ -1,4 +1,4 @@
-# 📐 Pattern Challenge – Line by Line (03)
+# 📐 Pattern Challenge – Line by Line (02)
 
 Welcome to the **Line by Line Pattern Challenge!**  
 This project is part of a beginner-friendly Python series focused on understanding how Python runs line by line and how to structure outputs cleanly.
