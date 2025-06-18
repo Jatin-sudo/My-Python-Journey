@@ -38,4 +38,4 @@ Recreate this pattern **exactly** as displayed using only Python’s `print()` f
 Inspired by the **Codedex Python series**.  
 This challenge helps solidify the concept of line-by-line execution in Python using `print()` statements.
 
-All content adapted from the Codedex website. A fun and unique way to learn programming languages — from basics to advanced! 💻✨ This website has genuinely helped me a lot. If I ever become something or achieve something great in life, a huge part of that credit will go to this platform. Thank you, Codedex! ❤️🔥
+All content adapted from the [Codedex](https://www.codedex.io) website. A fun and unique way to learn programming languages — from basics to advanced! 💻✨ This website has genuinely helped me a lot. If I ever become something or achieve something great in life, a huge part of that credit will go to this platform. Thank you, Codedex! ❤️🔥
