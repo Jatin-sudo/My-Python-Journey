@@ -52,18 +52,8 @@ DDDD   LLLLL
 
 ---
 
-## 📝 Example Starter Code
 
-```python
-# I love solving puzzles and playing chess in my free time!
-
-print("JJJJJ  GGGG")
-print("  J   G    ")
-print("  J   G  GG")
-print("J J   G   G")
-print(" JJ    GGG ")
-```
-
+**Source Credit:** All content adapted from the [Codedex](https://www.codedex.io) website. A fun and unique way to learn programming languages — from basics to advanced! 💻✨ This website has genuinely helped me a lot. If I ever become something or achieve something great in life, a huge part of that credit will go to this platform. Thank you, Codedex! ❤️🔥
 ---
 
 Happy Coding! 🚀
