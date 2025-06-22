@@ -32,3 +32,7 @@ In this **Control Flow** chapter, you’ll explore how programs “make decision
 - Boolean logic (`and`, `or`, `not`)
 
 Let’s start introducing real decision-making power into our Python code! 💻🧠
+
+---
+
+Source Credit: All content adapted from the Codedex website. A fun and unique way to learn programming languages — from basics to advanced! 💻✨ This website has genuinely helped me a lot. If I ever become something or achieve something great in life, a huge part of that credit will go to this platform. Thank you, Codedex! ❤️🔥
