@@ -7,6 +7,8 @@ The legend goes that on **September 9th, 1947**, a team of computer scientists a
 
 Some also argue that the term “bug”, meaning technical error, dates back to **1878** with **Thomas Edison**. 🐛
 
+![BUG](bug.png)
+
 > Notes by Grace Hopper that include the first actual bug found in a computer system that wasn't working properly.
 
 ---
@@ -23,6 +25,10 @@ During your coding adventure, you are destined to encounter many annoying lil' r
 But what makes a programmer great isn’t avoiding errors, but knowing how to face them head-on and resolve them. 💪
 
 ---
+
+Let's explore these below!
+
+![DANCING GIF](dancing.gif)
 
 ## 🔠 SyntaxError
 
