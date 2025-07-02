@@ -1,0 +1,102 @@
+Errors in Python
+# The Moth and the Myth
+The legend goes that on September 9th, 1947, a team of computer scientists at Harvard University found a moth trapped in the Harvard Mark II computer’s logbook. One of the team members was the computer science pioneer Grace Hopper and she reported the bug and wrote:
+
+“First actual case of bug being found.”
+
+Some also argue that the term “bug”, meaning technical error, dates back to 1878 with Thomas Edison. 🐛
+
+Notes by Grace Hopper that include the first actual bug found in a computer system that wasn't working properly
+
+By this point in the journey, you may have encountered an error or two when running the code.
+
+Here are some common Python errors:
+
+SyntaxError: this occurs when invalid Python code is present.
+NameError: this occurs when you're trying to use a variable without declaring it first.
+TypeError: this occurs when the data type you're using doesn't suit what you're trying to do.
+During your coding adventure, you are destined to encounter many annoying lil' red errors. But what makes a programmer great isn’t avoiding errors, but knowing how to face them head-on and resolve them. 💪
+
+Let's explore these below!
+
+
+
+# SyntaxError
+One of the most common errors is the SyntaxError, which occurs when you try to run code that is not valid Python – such as a misspelled keyword, a missing colon :, or a missing closing parenthesis.
+
+For example:
+
+print(Hello, World!
+
+# SyntaxError: invalid syntax
+
+The snippet above will throw a SyntaxError when run because the print() function requires a closing parenthesis. Also, 'Hello, World!' should be surrounded by quotes.
+
+The full error message might look something like:
+
+  File "main.py", line 1
+    print(Hello, World!
+                      ^
+SyntaxError: invalid syntax
+
+The File "main.py", line 1 describes the file name and the line number.
+The little arrow ^ points to where the error was detected.
+Note: The arrow ^ can be misleading sometimes because that's where the program thinks the error is; there are times when the errors happen before where it points!
+
+# NameError
+Another error you'll often come across is the NameError, which occurs when you're trying to refer to a variable that hasn't yet been made – it could be because you misspelled a variable name or forgot to define the variable!
+
+For example:
+
+print(greetings)
+
+# NameError: name 'greetings' is not defined
+
+The snippet above throws a NameError because we hadn't defined a greetings variable. We can fix this by defining the variable beforehand:
+
+greetings = 'Howdy 🤠'
+print(greetings)
+
+# Output: Howdy 🤠
+
+# TypeError
+One more common error that we will look at is the TypeError. When working with variables of various data types (e.g., numbers, strings, and booleans), you will likely come across this error.
+
+For example:
+
+message = 'The air quality is '
+print(message + 28)
+
+# TypeError: can only concatenate str (not "int") to str
+
+The message variable is a string data type. If we try to add an integer number 28 to it, a TypeError will be thrown. This can be fixed with something like the built-in str() function or with surrounding the number in quotes:
+
+message = 'The air quality is '
+print(message + str(28))
+
+# Output: The air quality is 28
+
+That’s all for now! If you run into an error that’s not on the list, make sure to visit the official Python documentation to check out all the rest!
+
+And don't forget to paste your error message into a Google search, too.
+
+# Bonus: Bug Catcher 🔎
+Here’s a simple program with a few different bugs:
+
+butterflies = 10
+beetles = 12
+ladybugs = 20
+
+print('I caught ' + butterflies + ' 🦋 butterflies!')
+print('I caught ' + beetles + ' 🪲 beetles!')
+print('I caught ' + ladybug + ' 🐞 ladybugs!)
+
+print('I caught ' + str(total) + ' total bugs!'
+
+Copy and paste this into our Python code editor and run the program.
+
+Oh no, there are a bunch of errors! Can you be the bug detective and find the errors by fixing them using the error messages?
+
+Word of advice: When you see a bunch of error messages, don’t panic! Always scroll up, start with the first (topmost) error, and try to knock that out first. And feel free to use # to comment out a line or two to determine where the problem is using the process of elimination.
+
+Happy debugging! 🕵🏻
